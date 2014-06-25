@@ -1,14 +1,9 @@
-{
-  "name": "JSONKit",
-  "version": "1.4",
-  "license": "BSD / Apache License, Version 2.0",
-  "summary": "A Very High Performance Objective-C JSON Library.",
-  "homepage": "https://github.com/johnezang/JSONKit",
-  "authors": "John Engelhart",
-  "source": {
-    "git": "https://github.com/johnezang/JSONKit.git",
-    "tag": "v1.4"
-  },
-  "source_files": "JSONKit.*",
-  "requires_arc": false
-}
+Pod::Spec.new do |s|
+  s.name         = "JSONKit"
+  s.version      = "1.4"
+  s.summary      = "A Very High Performance Objective-C JSON Library."
+  s.author       = { "Marlon Tojal" => "marlon.tojal@inm.pt" }
+  s.source       = { :git => "https://github.com/fnxpt/JSONKit" }
+  s.source_files  = 'JSONKit.*'
+  s.requires_arc = false
+end
